@@ -1,0 +1,16 @@
+.Hero{
+    height: 100vh;
+    width: 100%;
+    background-image: url("https://wallpaperplay.com/walls/full/7/3/7/28154.jpg");
+    background-size: cover;
+    
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+#Intro{
+    /* background-color: white; */
+    font-family: 'Times New Roman';
+    text-align: center;
+    color: white;
+}
