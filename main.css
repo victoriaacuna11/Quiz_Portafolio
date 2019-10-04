@@ -1,6 +1,29 @@
 .Hero{
     height: 100vh;
     width: 100%;
+
+}
+#Intro{
+    /* background-color: white; */
+    text-align: center;
+    color: white;
+}
+body{
+    font-family: 'Times New Roman';
+}
+#NavBar{
+    display: grid;
+    grid-template-columns:repeat(4,1fr);
+    color: white;
+    height: 5%;
+    align-items: center;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: black;
+}
+#Background{
+    height: 95%;
+    width: 100%;
     background-image: url("https://wallpaperplay.com/walls/full/7/3/7/28154.jpg");
     background-size: cover;
     
@@ -8,9 +31,7 @@
     align-items: center;
     justify-content: center;
 }
-#Intro{
-    /* background-color: white; */
-    font-family: 'Times New Roman';
-    text-align: center;
-    color: white;
+*{
+    margin: 0;
+    padding: 0;
 }
