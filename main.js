@@ -8,23 +8,21 @@
 //         }
 //     })
 // }
-var boton = document.getElementById("Principal");
-var body = document.getElementsByName(body);
-var htm = document.getElementsByName(html);
 
-$(document).ready(funtion(){
-    $(boton).click(funtion(){
-        $(body, html).animate({
-            scrollTop: '0px';
-        })
-    });
-    $(window).scroll(function(){
-        if($(this).scrollTop()>0){
-            $('.Principal').slideDown();
 
-        }else{
-            $('.Principal').slideUp();
-        }
-    });
-});
+// $(document).ready(funtion(){
+//     $('#Principal').click(funtion(){
+//         $('body, html').animate({
+//             scrollTop: '0px';
+//         })
+//     });
+//     $(window).scroll(function(){
+//         if($(this).scrollTop()>0){
+//             $('.Principal').slideDown();
+
+//         }else{
+//             $('.Principal').slideUp();
+//         }
+//     });
+// });
 
