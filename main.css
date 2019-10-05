@@ -10,13 +10,13 @@
 }
 body{
     font-family: 'Times New Roman';
-    background-color: white;
-    color: black;
+    background-color: black;
+    color: white;
 }
 #NavBar{
     display: grid;
     grid-template-columns:repeat(4,1fr);
-    color: white;
+    color:gray;
     height: 5%;
     align-items: center;
     box-sizing: border-box;
@@ -43,10 +43,15 @@ body{
     height: 150px;
 
 }
-#PortafolioTitulo{
+.Titulos{
     text-align: center;
     background-color: black;
     color: white;
+    display: grid;
+    grid-template-rows: 1fr;
+    align-items: center;
+    height: 40px;
+    font-family: Impact;
 }
 
 .Intro_wrapper1{
@@ -142,8 +147,52 @@ body{
 
 .about_wrapper{
     display: grid;
-    grid-auto-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    height: 300px;
 }
-
+.about{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+#foto{
+    display: block;
+    margin: auto;
+    width: 90%;
+    height: 100%;
+}
+#about_text{
+    text-align: center;
+}
+.skills{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column: 33%;
+    
+}
+#css_skills{
+    background-image:url(/img/css.jpg);
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    
+}
+#js_skills{
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    background-image: url(https://www.itprotoday.com/sites/itprotoday.com/files/styles/article_featured_retina/public/Screen%20Shot%202018-12-08%20at%204.45.18%20PM_0.png?itok=VnexEoCn);
+}
+#html_skills{
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    background-image: url(https://c8.alamy.com/comp/BY66EN/vertical-image-of-human-hands-typing-a-letter-BY66EN.jpg);
+}
+.div_skills{
+    text-align: center;
+    background: rgba(255, 255, 255, 0.7);
+    color:black;
+}
 
 
