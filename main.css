@@ -226,7 +226,10 @@ body{
     background: rgba(255,255,255,0.7);
     color:black;
     font-family: impact;
-    display: inline-block;
+    display: none;
+    border: none;
+    z-index: 99;
+    outline: none;
     padding: 0.6%;
     cursor: pointer;
 }
