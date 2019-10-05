@@ -6,27 +6,43 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Portafolio Victoria Acuña</title>
     <link rel="StyleSheet" href="main.css">
+    <script src="jquery.js"></script>
+    <script src="main.js"></script>
+    
+    
 </head>
 <body>
+        <span id="Principal">
+            <a id="Home_link" href="#NavBar">Principal</a>
+        </span>
+
     <div class="Hero">
         <div id="NavBar">
-            <div>Portafolio</div>
-            <div>Acerca de mí</div>
-            <div>Habilidades y destrezas</div>
-            <div>Contáctame</div>
+            <div>
+                <a class="NavBar_Links" href="#Portafolio">Portafolio</a>
+            </div>
+            <div>
+                <a class="NavBar_Links" href="#About">Acerca de mí</a>
+            </div>
+            <div>
+                <a class="NavBar_Links" href="#Skills_link">Habilidades y destrezas</a>
+            </div>
+            <div>
+                <a class="NavBar_Links" href="#Contact">Contáctame</a>
+            </div>
         </div>
         <div id="Background">
                 <div id="Intro">
-                        <h1>Victoria Acuña</h1>
-                        <h3>¡Bienvenido a mi pequeño portafolio!</h3>
-                        <h3>Desliza hacia abajo para conocer más de mí</h3>
+                        <h1 id="fuente_Titulo">Victoria Acuña</h1>
+                        <h3>Ingeniería de Sistemas</h3>
+                        <h3>Desliza hacia abajo para conocer más sobre mí</h3>
                 </div>
         </div>
     </div>
     <div class="Titulos">
-        <h1>Portafolio</h1>
+        <h1 id="Portafolio">Portafolio</h1>
     </div>
-    <div class="Portafolio">
+    <div class="Portafolio" >
         <div id="doc1_wrapper">
                 <div class="Intro_wrapper1">
                     <img id="img_box1" class="icon_proy" src="https://cdn1.iconfinder.com/data/icons/logotypes/32/google-drive-512.png">
@@ -81,7 +97,7 @@
                     <div class="Intro_wrapper">
                             <div class="img_box">
                                 <div class="img_wrapper">
-                                    <img class="icon_proy" src="https://www.clipartwiki.com/clipimg/detail/15-154474_clipart-desk-classroom-google-google-classroom-icon.png">
+                                    <img class="icon_proy" src="http://tech.pccsk12.com/wp-content/uploads/2017/12/google-classroom-logo1-1-1140x1140.png">
                                 </div>
                             </div>
                             <div class="Titulo_Proy">
@@ -108,10 +124,10 @@
     </div>
     <div class="about_wrapper">
         <div class="Titulos">
-            <h1>Acerca de mí</h1>
+            <h1 id="About">Acerca de mí</h1>
         </div>
         <div class="Titulos">
-            <h1>Habilidades y destrezas</h1>
+            <h1 id="Skills_link">Habilidades y destrezas</h1>
         </div>
         <div class="about">
             <div>
@@ -164,7 +180,7 @@
         </div>
     </div>
     <div>
-        <h1 class="Titulos">¡Contáctame!</h1>
+        <h1 id="Contact" class="Titulos">¡Contáctame!</h1>
     </div>
     <div class="socialmedia_wrapper">
         <div class="socialmedia_divs">
@@ -177,7 +193,7 @@
             <a target="_blank" href="https://api.whatsapp.com/send?phone=584141413101&text=Hola,%20soy%20Victoria.%20%C2%A1Gracias%20por%20contactarme!"><img id="wha"  src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/WhatsApp_logo-color-vertical.svg/294px-WhatsApp_logo-color-vertical.svg.png" alt="WhatsApp"></a> 
         </div>
     </div>
-    <script src="main.js"></script>
+    <!-- <script src="main.js"></script> -->
 </body>
 
 </html>

@@ -16,12 +16,19 @@ body{
 #NavBar{
     display: grid;
     grid-template-columns:repeat(4,1fr);
-    color:gray;
+    color:white;
     height: 5%;
     align-items: center;
     box-sizing: border-box;
     text-align: center;
     background-color: black;
+    
+}
+
+
+.NavBar_Links{
+    text-decoration: none;
+    color: white;
 }
 #Background{
     height: 95%;
@@ -212,5 +219,25 @@ body{
 .socialmedia_divs{
     width: 10%;
 }
+#Principal{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background: rgba(255,255,255,0.7);
+    color:black;
+    font-family: impact;
+    display: inline-block;
+    padding: 0.6%;
+    cursor: pointer;
+}
+#Home_link{
+    text-decoration: none;
+    color: black;
+}
+#fuente_Titulo{
+    font-size: 70px;
+    font-family: impact;
+}
+
 
 
